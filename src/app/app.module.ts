@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DinoComponent } from './dino/dino.component';
+import { DinoListComponent } from './dino-list/dino-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DinoComponent,
+    DinoListComponent
   ],
   imports: [
     BrowserModule,
